@@ -452,7 +452,7 @@
             align-items: center;
         }
        .banner{
-           height: 100vh;
+           height: auto;
        }
         .banner-left{
             width: 100%;
@@ -515,4 +515,13 @@
         }
         
         /* news end */
+ }
+ @media only screen and (min-width: 993px){
+    .container-full{
+        width: 100%;
+        height: auto;
+    }
+     .banner-left{
+         height: auto;
+     }
  }
